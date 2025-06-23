@@ -49,23 +49,4 @@ git clone https://github.com/orhanturkmenoglu/ollama-cv-insight.git
 cd ollama-cv-insight
 ./mvnw spring-boot:run
 
----
-🚩 API Kullanımı
-Metin tabanlı AI sohbet:
-GET /api/chat/ask?userInput=merhaba
-
-PDF CV Analizi:
-POST /api/chat/analyze
-Form-data içinde file parametresi ile PDF dosyasını gönderin.
-
-PDF Metin Okuma:
-POST /api/pdf/read
-Form-data içinde file parametresi ile PDF dosyasını gönderin.
-
-⚡️ Notlar
-Ollama TinyLLaMA modeli, düşük kaynaklarla hızlı ve etkili analiz sunar.
-
-Daha gelişmiş modeller ve Docker desteği yakında eklenecektir.
-
-
 
